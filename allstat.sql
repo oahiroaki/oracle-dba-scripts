@@ -1,0 +1,1 @@
+select * from table(DBMS_XPLAN.DISPLAY_CURSOR('&SQLID', 0, 'ALLSTATS LAST'));
